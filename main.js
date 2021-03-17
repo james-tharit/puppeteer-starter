@@ -26,6 +26,11 @@ if(process.argv.length >= 3){
     return result
   })
   let navIndex = data.td.indexOf(fundName)
+  if( navIndex === -1 ){
+    console.error('Please sepecify valid name!')
+    await browser.close();
+    return 
+  }
   console.log(data.td[navIndex + 1])
-  await browser.close();
+  await browser.close()
 })();
