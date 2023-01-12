@@ -1,6 +1,5 @@
 # Basic-Puppeteer
-This project is a simple template for using puppetter to scrap out information from website. 
-The goal is to make it general, to scrap overview information of the any website user input.
+This project is a simple template for using Puppeteer to scrap out information from a website. The goal is to make it general, to scrap overview information of any website user input.
 
 ## To run this project
 - Use Node version >= 19
